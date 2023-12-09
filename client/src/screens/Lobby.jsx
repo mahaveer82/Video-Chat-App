@@ -54,13 +54,12 @@ const LobbyScreen = () => {
           <input
             placeholder="Enter RoomID..."
             type="text"
-
             value={room}
             onChange={(e) => setRoom(e.target.value)}
           />
         <br />
         <br />
-        <button className="button">Submit</button>
+        <button className="button">Join</button>
       </form>
       </div>
     </div>
